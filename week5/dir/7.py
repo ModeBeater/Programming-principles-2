@@ -1,0 +1,6 @@
+file = open('input.txt', 'r')
+a = file.readlines()
+file.close()
+file1 = open('input1.txt','w')
+file1.writelines(a)
+file1.close()
